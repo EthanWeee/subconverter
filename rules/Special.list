@@ -1,0 +1,66 @@
+# > Steam
+DOMAIN-SUFFIX,csgo.wmsj.cn
+DOMAIN-SUFFIX,dota2.wmsj.cn
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamusercontent.com
+#DOMAIN-SUFFIX,steamstat.us
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
+DOMAIN-SUFFIX,dl.steam.ksyna.com
+DOMAIN-SUFFIX,st.dl.bscstorage.net
+DOMAIN-SUFFIX,st.dl.eccdnx.com
+DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+
+# > Mac Download
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper
+PROCESS-NAME,DownloadService
+PROCESS-NAME,Weiyun
+
+# > BT
+DOMAIN-KEYWORD,aria2
+DOMAIN-KEYWORD,xunlei
+DOMAIN-KEYWORD,yunpan
+DOMAIN-KEYWORD,Thunder
+DOMAIN-KEYWORD,XLLiveUD
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,smtp
+URL-REGEX,(Subject|HELO|SMTP|torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)
+
+# > Epicgames
+DOMAIN-SUFFIX,ol.epicgames.com
+
+# > Mozilla
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+
+# > Tencent
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+
+# > Strava
+DOMAIN,analytics.strava.com
+
+# > Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+
+# > General
+USER-AGENT,coffeecorp*
+USER-AGENT,restaurant-mobile*
+DOMAIN,app.adjust.com
+
+# > Other
+DOMAIN-SUFFIX,71p.net

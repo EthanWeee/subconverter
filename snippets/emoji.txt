@@ -1,0 +1,47 @@
+Netease,🎶
+
+(瑞典|Sweden),🇸🇪
+(挪威|Norway),🇳🇴
+(越南|Vietnam),🇻🇳
+(丹麦|Denmark),🇩🇰
+(澳门|MO|Macao),🇲🇴
+(南非|South Africa),🇿🇦
+
+(西班牙|Spain),🇪🇸
+(比利时|Belgium),🇧🇪
+(匈牙利|Hungary),🇭🇺
+(阿根廷|Argentina),🇦🇷
+(菲律宾|Philippines),🇵🇭
+
+(拉脱维亚|Latvija),🇱🇻
+(罗马尼亚|Romania),🇷🇴
+(保加利亚|Bulgaria),🇧🇬
+(马来西亚|Malaysia),🇲🇾
+
+(印度|孟买|India),🇮🇳
+(巴西|圣保罗|Brazil),🇧🇷
+(泰国|曼谷|Thailand),🇹🇭
+(法国|巴黎|FR|France),🇫🇷
+(芬兰|赫尔辛基|Finland),🇫🇮
+(瑞士|苏黎世|Switzerland),🇨🇭
+(德国|法兰克福|DE|Germany),🇩🇪
+(英国|伦敦|UK|United Kingdom),🇬🇧
+(荷兰|阿姆斯特丹|NL|Netherlands),🇳🇱
+(意大利|米兰|Italy),🇮🇹
+(爱尔兰|都柏林|Ireland),🇮🇪
+(奥地利|维也纳|Austria),🇦🇹
+(印度尼西亚|雅加达|Indonesia),🇮🇩
+(土耳其|伊斯坦布尔|TR|Turkey),🇹🇷
+(阿联酋|迪拜|United Arab Emirates),🇦🇪
+(澳大利亚|澳洲|悉尼|Australia|Sydney),🇦🇺
+(加拿大|多伦多|蒙特利尔|温哥华|Canada),🇨🇦
+(俄罗斯|哈巴罗夫斯克|伯力|莫斯科|圣彼得堡|西伯利亚|RU|Russia),🇷🇺
+
+(香港|[^-]港|HK|Hong Kong),🇭🇰
+(韩国|[^-]韩|首尔|KR|Korea),🇰🇷
+(新加坡|[^-]新|狮城|SG|Singapore),🇸🇬
+(日本|[^-]日|埼玉|大阪|东京|JP|Japan),🇯🇵
+(台湾|[^-]台|台中|新北|彰化|台北|TW|HINET|Taiwan),🇨🇳
+(美国|[^-]美|哥伦布|纽约|弗里蒙特|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US),🇺🇲
+(中国|回国|GCX|Back|China),🇨🇳
+
