@@ -9,8 +9,8 @@ dns:
     - 119.29.29.29
     - 223.6.6.6
     - 182.254.116.116
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
+  enhanced-mode: redir-host
+#  fake-ip-range: 198.18.0.1/16
   nameserver:
     - https://dns.alidns.com/dns-query        #阿里云DoH
     - https://120.25.25.166/dns-query         #rixCloud 深圳阿里云

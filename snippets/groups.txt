@@ -1,8 +1,8 @@
 🚀 Outside`select`.*
-🍃 ForeignMedia`[]🚀 Outside`.*
+🍃 ForeignMedia`select`[]🚀 Outside`.*
 🍂 NETFLIX`select`[]🚀 Outside`.*
-💬 Telegram`select`[]🚀 Outside`([^-]新|新加坡|狮城|Singapore)
-🔞‍ DMM`select`[]🚀 Outside`([^-]日|日本|埼玉|大阪|东京|Japan)
+💭 Telegram`select`[]🚀 Outside`(新加坡|[^-]新|狮城|SG|Singapore)
 🔥 Microsoft`select`[]🚀 Outside`[]DIRECT
-🍎‍ APPLE`select`[]DIRECT`[]🚀 Outside
 🎶 Netease Music`select`Netease`[]DIRECT
+🍎‍ APPLE`select`[]DIRECT`[]🚀 Outside
+🔞‍ DMM`select`[]🚀 Outside`([^-]日|日本|埼玉|大阪|东京|Japan)

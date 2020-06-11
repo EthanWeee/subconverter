@@ -6,7 +6,7 @@ REJECT,rules/Ethan/Hijacking.list
 🍃 ForeignMedia,rules/Ethan/ForeignMedia.list
 💭 Telegram,rules/Ethan/Telegram.list
 🍎‍ APPLE,rules/Ethan/Apple.list
-🇯🇵 Japan,rules/Ethan/Dmm.list
+🔞‍ DMM,rules/Ethan/Dmm.list
 🚀 Outside,rules/Ethan/Foreign.list
 DIRECT,rules/Ethan/Domestic.list
 DIRECT,[]GEOIP,CN

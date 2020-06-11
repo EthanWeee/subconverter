@@ -15,6 +15,42 @@ DOMAIN-SUFFIX,st.dl.bscstorage.net
 DOMAIN-SUFFIX,st.dl.eccdnx.com
 DOMAIN-SUFFIX,st.dl.pinyuncloud.com
 
+# > Proxy plugin
+PROCESS-NAME,v2ray
+PROCESS-NAME,ss-local
+
+# > UUBooster
+PROCESS-NAME,UUBooster
+
+# > Private Tracker
+DOMAIN-SUFFIX,awesome-hd.me
+DOMAIN-SUFFIX,broadcasthe.net
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,classix-unlimited.co.uk
+DOMAIN-SUFFIX,empornium.me
+DOMAIN-SUFFIX,gazellegames.net
+DOMAIN-SUFFIX,hdchina.org
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,icetorrent.org
+DOMAIN-SUFFIX,jpopsuki.eu
+DOMAIN-SUFFIX,keepfrds.com
+DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,nanyangpt.com
+DOMAIN-SUFFIX,ncore.cc
+DOMAIN-SUFFIX,open.cd
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,passthepopcorn.me
+DOMAIN-SUFFIX,privatehd.to
+DOMAIN-SUFFIX,redacted.ch
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-SUFFIX,tjupt.org
+DOMAIN-SUFFIX,totheglory.im
+URL-REGEX,(Subject|HELO|SMTP)
+
+#Baidu disk
+PROCESS-NAME,baidunetdisk
+
 # > Mac Download
 PROCESS-NAME,aria2c
 PROCESS-NAME,fdm
@@ -29,6 +65,8 @@ PROCESS-NAME,DownloadService
 PROCESS-NAME,Weiyun
 
 # > BT
+USER-AGENT,%E8%BF%85%E9%9B%B7
+DOMAIN-SUFFIX,xunlei.com
 DOMAIN-KEYWORD,aria2
 DOMAIN-KEYWORD,xunlei
 DOMAIN-KEYWORD,yunpan
@@ -39,6 +77,11 @@ DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,tracker
 DOMAIN-SUFFIX,smtp
 URL-REGEX,(Subject|HELO|SMTP|torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 
 # > Epicgames
 DOMAIN-SUFFIX,ol.epicgames.com
@@ -61,18 +104,6 @@ DOMAIN,msg.umengcloud.com
 USER-AGENT,coffeecorp*
 USER-AGENT,restaurant-mobile*
 DOMAIN,app.adjust.com
-
-# > Local
-DOMAIN-SUFFIX,local
-IP-CIDR,192.168.0.0/16,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,172.16.0.0/12,no-resolve
-IP-CIDR,127.0.0.0/8,no-resolve
-IP-CIDR,100.64.0.0/10,no-resolve
-IP-CIDR6,::1/128,no-resolve
-IP-CIDR6,fc00::/7,no-resolve
-IP-CIDR6,fe80::/10,no-resolve
-IP-CIDR6,fd00::/8,no-resolve
 
 # > Other
 DOMAIN-SUFFIX,71p.net
